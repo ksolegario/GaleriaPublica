@@ -33,11 +33,15 @@ android {
 
 dependencies {
 
+    implementation ("androidx.paging:paging-runtime:3.3.5")
+    implementation ("com.google.guava:guava:30.1-android")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.paging.guava)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
 }
